@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+    "type": "module",
+
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  }
+}
